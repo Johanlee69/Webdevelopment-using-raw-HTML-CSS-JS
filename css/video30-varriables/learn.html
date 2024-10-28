@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>varriabels</title>
+    <style>
+        /* global veriables */
+        :root
+        {
+            --color:red;
+            --seccolor: blue;
+            --width1: 130px;
+            --width2: 230px;
+            --width3: 330px;
+
+        }
+        .box
+        {
+            border: 2px solid;
+            padding: 10px;
+        }
+        .box1
+        {
+            background-color: var(--color);
+            width: var(--width3);
+        }
+        .box2
+        {
+            background-color: azure;
+            width: var(--width2);
+        }
+        .box3
+        {
+            --width1: 30px; /* local veriable */
+            background-color: blueviolet;
+            width: var(--width1);
+        }
+        .box4
+        {
+            background-color: rgb(205, 255, 247);
+        }
+
+</style>
+</head>
+<body>
+    <div class="box">
+        <p class="box box1">1</p>
+        <p class="box box2">2</p>
+        <p class="box box3">3</p>
+        <p class="box box4">4</p>
+    </div>    
+</body>
+</html>

@@ -1,0 +1,256 @@
+/* fonts */
+@import url('https://fonts.cdnfonts.com/css/netflix-font');
+/* font-family: 'Netflix Font', sans-serif; */
+    /* responsive */
+    @media screen and (max-height: 950px) 
+    {
+          
+        .nav_elements
+        {
+            display: flex;
+            gap: 5vw;
+        }
+       
+        #Netfilixlogo 
+        {
+            margin-right: 60px;
+        }
+    
+        .main nav {
+            display: flex;
+            justify-content: center;
+            margin-left: 20px;
+            margin-right: 10px;
+            transform: scale(0.6);
+        }
+    
+        .textbox {
+            transform: scale(0.5);
+            margin-right: px;
+        }
+    
+        .icons_top {
+            display: flex;
+            margin-left: 20px;
+        }
+    
+        #Sginin {
+            width: 90px;
+        }
+       
+        
+    }
+    /* veriables */
+:root {
+    --bottombordersection_color: rgb(43, 42, 42);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* section-top */
+.main {
+    position: relative;
+    background-image: url(assets/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: max(2000px, 100vw);
+    background-position: center center;
+    box-shadow: inset 0px 110px 100px rgb(0, 0, 0);
+    height: auto;
+    border-bottom: 10px solid var(--bottombordersection_color);
+}
+
+#blackfilter {
+    position: absolute;
+    top: 0;
+    height: 120vh;
+    width: 100%;
+    opacity: 0.54;
+    background-color: black;
+}
+
+.main nav {
+    max-width: 100vw;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+
+.btn_nav {
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 15px;
+    font-family: 'Netflix Font', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.btn_nav:hover {
+    cursor: pointer;
+}
+
+#lang_iocon {
+    position: absolute;
+    align-items: center;
+    transform: translate(15px);
+    height: 40px
+}
+
+.options {
+    color: black;
+    background-color: white;
+}
+
+#lang {
+    background-color: black;
+    width: 150px;
+    border-radius: 5px;
+    border: 3px solid;
+    border-color: white;
+    text-align: center;
+}
+
+#Sginin {
+    border-radius: 5px;
+    background-color: red;
+}
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    color: white;
+    font-family: 'Netflix Font', sans-serif;
+    text-shadow: 2px 2px 120px rgb(0, 0, 0);
+    scale: 1.5;
+}
+
+
+.nav_elements
+{
+    display: flex;
+    gap: 25vw;
+}
+
+
+.textbox>span:nth-child(1) {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.textbox>span:nth-child(2) {
+    font-size: 22px;
+}
+
+.textbox>span:nth-child(3) {
+    font-size: 23px;
+}
+
+.email_action {
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+#addemail {
+    width: 50vh;
+    height: 2vh;
+    border: 4px solid white;
+    background-color: rgba(0, 0, 0, 0.414);
+    font-size: 20px;
+}
+
+.btn_email:hover {
+    cursor: pointer;
+    transition: filter 0.5s ease-in-out;
+    filter: brightness(1.5);
+}
+
+.btn_email {
+    text-align: center;
+    width: 220px;
+    background-color: aqua;
+    padding: 5px;
+    margin-bottom: 40px;
+    transform: translate(0px, 5px);
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: red;
+}
+
+/* section middle -descrption-  */
+            /* selction-one-tv */
+.discone_container {
+    background-color: rgb(0, 0, 0);
+    height: 70vh;
+    border-bottom: 10px solid var(--bottombordersection_color);
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    gap: 0px;
+    padding-top: 25px;
+}
+.TV_txt
+{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    color: white;
+    height: 70vh;
+    font-family: 'Netflix Font', sans-serif;
+}
+.TV_txt>span:nth-child(1)
+{
+    position: relative;
+    font-size: 50px;
+    font-weight: 900;
+}
+.TV_txt>span:nth-child(2)
+{
+    font-size: 20px;
+    width: 76%;
+}
+.TV
+{   
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.TV>img
+{
+    position: relative;
+    z-index: 1; 
+}
+.TV>video
+{   
+    position: relative;
+    transform: translate(60px,-390px);
+}
+
+
+    /* selction-one-tv-end */
+
+
+.disc_five {
+    height: 100vh;
+}
+
+/* bottom section -footer- */
+.footer {
+    height: 40vh;
+}

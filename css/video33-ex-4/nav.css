@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: rgb(211, 209, 209);
+}
+
+:root {
+    --color: rgb(238, 255, 83);
+    --color2: rgba(240, 29, 29, 0.905);
+    --color3: rgb(255, 137, 11);
+    --color4: rgba(255, 192, 98, 0.395);
+    --white: rgb(255, 253, 253);
+}
+
+.bar>p {
+    position: absolute;
+    font-size: 25px;
+    top: -7px;
+    left: 790px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    opacity: 0.8;
+    color: var(--white);
+}
+
+.bar {
+    margin: px;
+    padding: 0px;
+    border: 1px solid var(--color3);
+    background-color: var(--color2);
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgba(35, 35, 35, 0.248);
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    color: var(--color4);
+}
+
+.list {
+    margin-right: 30px;
+    padding: -5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style: none;
+    position: relative;
+    left: -30px;
+    color: var(--white);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+.list.socials {
+    position: relative;
+    left: 1500px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.list.list.socials>a {
+    text-decoration: none;
+
+}
+
+:visited {
+    color: var(--white)
+}
+.list.itmes:hover
+{
+    background-color: var(--color4);
+    cursor: pointer;
+    border-radius: 10px;
+}

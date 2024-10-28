@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object fit</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body
+        {
+            
+            background-color: rgb(133, 133, 255);
+        }
+         .pfpcontainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url(https://wallpapers.com/images/hd/cool-anime-background-v0gxwu7xfch6l3tc.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+       
+        .box {
+            border-radius: 1px;
+            border: 5px solid;
+            height: 50vh;
+            width: 30vw;
+            box-shadow: 1px 1px 20px black;
+            transform: translate(0px,80px);
+            
+        }
+        .box>p
+        {
+            font-size: 25px;
+            width: 440px;
+            transform: translate(32px,-950px);
+        }
+
+        .box:hover,
+        #chatbox:hover
+        {
+            transition: scale 0.5s ease-in-out;
+            scale: 1.1;
+        }
+
+        #pfp {
+            height: 50vh;
+            width: 30vw;
+            object-fit: cover;
+
+        }
+
+        #chatbox 
+        {   
+            transform: translate(40px,-630px);
+            margin: 10px;
+            transform: rotate();
+            scale: 1.2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="pfpcontainer">
+            <div class="box">
+                <img id="pfp" src="https://images7.alphacoders.com/130/1304790.png" alt="sang jin">
+                <img id="chatbox"
+                src="https://static.vecteezy.com/system/resources/thumbnails/017/217/414/small/white-speech-bubble-quotes-box-text-box-frame-talk-chat-box-conversation-bubble-decoration-png.png"
+                alt="comment box">
+                <p > I SAID 10 BROTHER !!! *BTW it took me 15 mints to make this shit!*</p>
+            </div>
+        </div>
+    
+            
+                
+    </div>
+
+</body>
+
+</html>

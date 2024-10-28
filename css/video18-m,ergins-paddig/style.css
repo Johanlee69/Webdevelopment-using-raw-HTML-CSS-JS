@@ -1,0 +1,16 @@
+#box
+{
+    background-color: aquamarine;
+    color: blue;
+    padding: 20px;
+    border: 2px solid black;
+    margin: px;
+}
+#boxtwo
+{
+    background-color: rgb(255, 247, 1);
+    color: red;
+    padding: 20px;
+    border: 2px solid rgb(255, 153, 153);
+    margin: 20px;
+}

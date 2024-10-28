@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My nav bar</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: rgba(208, 206, 206, 0.272);
+            width: 100vw;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-top: 10px;
+        }
+
+        .list {
+            display: flex;
+            flex-direction: row;
+            padding: 5px;
+            padding-right: 15px;
+            justify-content: end;
+            position: relative;
+            left: -150px;
+        }
+
+        .listing:hover {
+            cursor: pointer;
+            background-color: rgba(155, 155, 155, 0.212);
+        }
+
+        .list0 {
+            font-weight: bolder;
+            position: absolute;
+            left: 630px;
+        }
+
+        #footer {
+            position: absolute;
+            top: 30px;
+            left: 637px;
+            font-size: 13px;
+        }
+
+        .para {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            font-size: 30px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            position: relative;
+            top: 100px;
+        }
+
+        .downloadbox {
+            display: flex;
+            justify-content: center;
+        }
+
+        .downloadbox>p {
+            display: inline-block;
+            border: 2px solid rgb(217, 217, 217);
+            border-radius: 8px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(2, 162, 242);
+            padding: 10px;
+            position: absolute;
+            top: 320px;
+
+        }
+
+        .downloadbox>p>a {
+            text-decoration: none;
+        }
+
+        :link {
+            color: white;
+        }
+
+        :visited {
+            color: white;
+        }
+
+        .downloadbox:hover {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <ul class="list">
+                    <li class="list list0">UltraEdit
+                        <img width="30"
+                            src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE_logo_icon_black-new.png"
+                            alt="UE.png" style="position: absolute; left: -30px; align-content: center;">
+                    <li id="footer" style="list-style: none;">An Idira Inc.Company</li>
+                    </li>
+                    <li class="list listing list1">Products</li>
+                    <li class="list listing list2">Pricing</li>
+                    <li class="list listing list3">Resources</li>
+                    <li class="list listing list4">About us</li>
+                    <li class="list listing list5">
+                        <img width="30" src="https://cryptologos.cc/logos/chatcoin-chat-logo.png" alt="chat.png">
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="para">
+            <p>Download <b>UltraEdit</b> for windows</p>
+            <div>
+
+            </div>
+        </div>
+        <div class="para">
+            <p style="font-size: 20px; margin: 20px; width: 900px; text-align: center;">Download and try UltraEdit
+                before
+                you buy it! This download include the full windows version of the text editor</p>
+        </div>
+        <a href="https://wallpapers.com/images/featured/funny-meme-pictures-ppzthb74p3b686b9.jpg">
+            <div class="contain downloadbox">
+                <p>
+                    DOWNLOAD MAC OR LINUX VERSION
+                </p>
+            </div>
+        </a>
+    </main>
+</body>
+
+</html>

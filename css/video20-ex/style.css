@@ -1,0 +1,17 @@
+#Lorem
+{   
+    background-color: aqua;
+    color: brown;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+#Loremtwo
+{
+    background-color: rgb(8, 255, 53);
+    color: rgb(255, 0, 0);
+    border: 2px solid rgb(7, 7, 7);
+    padding: 10px;
+    margin: 10px;
+}

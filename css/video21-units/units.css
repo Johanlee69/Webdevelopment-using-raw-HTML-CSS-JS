@@ -1,0 +1,21 @@
+/* Define a base font size for the root element */
+html {
+    font-size: 16px; /* 1rem will be equal to 16px */
+  }
+  
+  .container {
+    font-size: 20px; /* Set font size for demonstration */
+  }
+  
+  .parent {
+    font-size: 1.5em; /* Font size of parent element is 1.5 times the root font size */
+  }
+  
+  .child-em {
+    font-size: 1.5em; /* Font size is 1.5 times the font size of its parent (.parent) */
+  }
+  
+  .child-rem {
+    font-size: 1.5rem; /* Font size is 1.5 times the root font size (16px * 1.5 = 24px) */
+  }
+  

@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+:root {
+                /* background colors */
+    --Navigationbartextcolor: rgb(156, 255, 225);
+    --Navigationbarbackgroundcolor: rgb(4, 0, 255);
+    --Navigationbarhovercolor: rgb(0, 255, 255, 0.568);
+    --footerbackgroundcolor: rgb(249, 102, 102);
+    /* box container colors */
+    --boxbackground1color: rgb(247, 122, 122);
+    --containerbackgroundcolor: rgb(219, 250, 174);
+    --boxbackground2color: rgb(24, 165, 208);
+    --boxbordercolor: rgb(252, 207, 207);
+    --bottomcontainerbordercolor: rgb(252, 247, 247);
+    
+}
+
+body {
+    background-color: rgb(96, 96, 96);
+}
+
+/* homebar */
+.Home {
+    background-color: var(--Navigationbarbackgroundcolor);
+    padding: 20px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    box-shadow: -1px 0px 30px rgb(2, 11, 114);
+
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--Navigationbartextcolor);
+}
+
+.list.list.items:hover:hover {
+    background-color: var(--Navigationbarhovercolor);
+    padding: 20px;
+}
+
+/* homebar end */
+/* logo */
+#gem {
+    position: fixed;
+    top: 850px;
+    right: 15px;
+}
+
+/* boxes */
+.container
+{
+    background-color: var(--containerbackgroundcolor);
+    border: 2px solid var(--boxbordercolor);
+    height: 70vh;
+    width: 90vw;
+    margin: 60px;
+    margin-top: 120px;
+    
+}
+.box
+{   
+    display: inline-flex;
+    border: 2px solid var(--boxbordercolor);
+    height: 400px;
+    padding: 30px;
+    width: 40%;
+    margin: 80px;
+    border-radius: 20px;
+    font-size: 30px;
+}
+.box1
+{
+    background-color: var(--boxbackground1color);
+    
+
+}
+.box2
+{
+    background-color: var(--boxbackground2color);
+}
+#bottomcontainer
+{   
+    display: inline-block;
+    padding: 40px;
+    padding-left: 100px;
+    width: 450px;
+    margin-left: 650px;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+    scale: 3;
+    font-size: 20px;
+    border : 2px solid var(--bottomcontainerbordercolor)
+    
+    
+}
+footer
+{
+    background-color: var(--footerbackgroundcolor);
+    height: 90px;
+    margin-top: 450px; font-size: 25px;
+    padding: 30px;
+    padding-left: 1450px;
+}
